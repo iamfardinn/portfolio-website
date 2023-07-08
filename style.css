@@ -1,0 +1,46 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+   
+}
+span{
+    color: #EF6262;
+}
+.nav-title{
+    font-size: 35px;
+    font-weight: 700px;
+    color: #FFF4F4;
+}
+nav>ul{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #FFF4F4;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+.btn-primary{
+    height: 40px;
+    width:80px;
+    background-color: #8BACAA;
+    color: #FFF4F4;
+    border-radius: 5px;
+    padding: 10px 10px;
+  
+    font-size: 14px;
+
+
+}
