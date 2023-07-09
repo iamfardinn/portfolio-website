@@ -1,16 +1,17 @@
 body{
     font-family: 'Lato', sans-serif;
-    background-color: black;
+   
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
     
     
    
 }
-span{
+.title{
     color: #EF6262;
 }
 .nav-title{
@@ -34,7 +35,7 @@ nav li{
 }
 .btn-primary{
     height: 40px;
-    width:80px;
+    width:120px;
     background-color: #8BACAA;
     color: #FFF4F4;
     border-radius: 5px;
@@ -43,4 +44,20 @@ nav li{
     font-size: 14px;
 
 
+}
+
+.head{
+    background-color: #001C30;
+}
+
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items:center ;
+    
+
+}
+.profile-pic{
+    width: 500x;
+    
 }
